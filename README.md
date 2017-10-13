@@ -4,10 +4,10 @@ Demonstrate interaction between B4A and Kotlin
 
 
 Build the Kotlin Jar
-
-kotlinc hello.kt -include-runtime -d h:\master\lib\example.jar
-kotlinc hello.kt -include-runtime -d h:\master\project\lib\example.jar
-
+<pre>
+kotlinc example.kt -include-runtime -d h:\master\lib\example.jar
+kotlinc example.kt -include-runtime -d h:\master\project\lib\example.jar
+</pre>
 
 Build the Wrapper:
 
