@@ -9,14 +9,12 @@ kotlinc example.kt -include-runtime -d h:\master\lib\example.jar
 kotlinc example.kt -include-runtime -d h:\master\project\lib\example.jar
 </pre>
 
-Build the Wrapper:
-new demo.b4akotlin();
-	return demo.DemoUtils.sum(a);
+Build the B4A Wrapper:
 <pre>
-SimpleLi   - <a href="https://www.b4x.com/android/forum/threads/tool-simple-library-compiler-build-libraries-without-eclipse.29918/">Tool</a>
+Simple Library Compiler   - <a href="https://www.b4x.com/android/forum/threads/tool-simple-library-compiler-build-libraries-without-eclipse.29918/">Tool</a>
 </pre>
 
-Compile the Wrapper
+Example use of Kotlin function using B4A
 
 <pre>
   Dim At() As Int
