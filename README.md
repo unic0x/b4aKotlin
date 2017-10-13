@@ -5,13 +5,13 @@ Demonstrate interaction between B4A and Kotlin
 
 Build the Kotlin Jar
 <pre>
-kotlinc example.kt -include-runtime -d $Path\example.jar
-kotlinc example.kt -include-runtime -d $Path\example.jar
+kotlinc example.kt -include-runtime -d h:\master\lib\example.jar
+kotlinc example.kt -include-runtime -d h:\master\project\lib\example.jar
 </pre>
 
 Build the B4A Wrapper:
 <pre>
-../SimpleLibraryCompiler $LibraryName $Path  - <a href="https://www.b4x.com/android/forum/threads/tool-simple-library-compiler-build-libraries-without-eclipse.29918/">Tool</a>
+../SimpleLibraryCompiler.exe Library_Name h:\master\project  - <a href="https://www.b4x.com/android/forum/threads/tool-simple-library-compiler-build-libraries-without-eclipse.29918/">Tool</a>
 </pre>
 
 Example use of Kotlin function using B4A
