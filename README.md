@@ -10,6 +10,11 @@ kotlinc example.kt -include-runtime -d h:\master\project\lib\example.jar
 </pre>
 
 Build the Wrapper:
+new demo.b4akotlin();
+	return demo.DemoUtils.sum(a);
+<pre>
+SimpleLi   - <a href="https://www.b4x.com/android/forum/threads/tool-simple-library-compiler-build-libraries-without-eclipse.29918/">Tool</a>
+</pre>
 
 Compile the Wrapper
 
