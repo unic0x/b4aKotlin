@@ -17,10 +17,17 @@ Build the B4A Wrapper:
 Example use of Kotlin function using B4A
 
 <pre>
-  Dim At() As Int
+
+Sub Globals
+	Dim At() As Int
 	At = Array As Int(5, 7, 1, 4, 9, 2, 1, -1)
-  Dim Kt As Kotlin
-  Log(kt.summ(At))
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	Dim kt As Kotlin
+	Log(kt.randomnumber(1,10))
+	Log(kt.summ(At))
+End Sub
  </pre>
 
 
