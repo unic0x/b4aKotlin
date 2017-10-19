@@ -24,7 +24,8 @@ Example use of Kotlin function using B4A
  </pre>
 
 
-<b>Advancing</b>
+<b>Advancing - </b>
+
 Building a more advanced jar that requires third part jars can be compiled in this way
 <pre>
 kotlinc hello.kt -cp thirdparty.jar -include-runtime -d kotlin.jar
